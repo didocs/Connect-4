@@ -1,0 +1,71 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 100%;
+}
+
+.grid {
+    display: table;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+.row {
+    display: table-row;
+}
+  
+.td {
+  width: 80px;
+  height: 80px;
+  font-size: 0%;
+  color: rgb(239, 215, 32);
+  text-align: center;
+  align-items: center;
+  background: rgb(231, 206, 93);
+  border-spacing: 5px;
+  display: table-cell;
+}
+  
+.circle {
+  width: 55px;
+  height: 55px;
+  margin: 5px;
+  align-items: center;
+  font-size: 0%;
+  text-align: center;
+  box-sizing: content-box;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.triangle {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent; 
+  border-right: 30px solid transparent; 
+  border-top: 20px solid white; 
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; 
+}
+
+
+.messageBox {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  align-items: center;
+  border-spacing: 5px;
+
+}
+  
+
+  
+  
+  
